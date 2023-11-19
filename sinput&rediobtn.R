@@ -19,7 +19,14 @@ ui <- fluidPage(
   ),
   
   "Upload file:",
-  fileInput("upload", NULL)
+  fileInput("upload", NULL),
+  
+  fluidRow(
+    "Action Button",
+    actionButton("click", "Click me!", class = "btn-danger"),
+    actionButton("drink", "Drink me!", class = "btn-lg btn-success"),
+    actionButton("eat", "Eat me!", class = "btn-block")
+  ),
 )
 
 server <- function(input, output, session){
