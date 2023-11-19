@@ -3,7 +3,7 @@
     "path": "W:/rShinyApps/Basic-UI/basicUi/sinput&rediobtn.R",
     "project_path": "sinput&rediobtn.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "4065562473",
     "contents": "",
     "dirty": false,
     "created": 1700381167259.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "7,83",
+        "cursorPosition": "20,17",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1700384294,
+    "lastKnownWriteTime": 1700388361,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1700384294036,
+    "last_content_update": 1700388361743,
     "read_only": false,
     "read_only_alternatives": []
 }

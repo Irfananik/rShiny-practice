@@ -16,7 +16,10 @@ ui <- fluidPage(
       icon("sad-tear")
     ),
     choiceValues = list("angry", "happy", "sad")
-  )
+  ),
+  
+  "Upload file:",
+  fileInput("upload", NULL)
 )
 
 server <- function(input, output, session){
