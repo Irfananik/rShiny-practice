@@ -1,6 +1,8 @@
 library(shiny)
 ui <- fluidPage(
-  sliderInput("min", "Limit (minimum)", value = 50, min = 0, max = 100)
+  textInput("name", "Enter your name"),
+  passwordInput("password", "Enter your password"),
+  textAreaInput("story", "Your comment")
 )
 
 server <- function(input, output, session){
