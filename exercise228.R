@@ -5,9 +5,9 @@ ui <- fluidPage(
   
   "Exercise-2",
   sliderInput("birthday_slider", "When should we deliver",
-              min = as.numeric(as.Date("2020-09-16")),
-              max = as.numeric(as.Date("2020-09-23")),
-              value = c(as.numeric(as.Date("2020-09-17")), as.numeric(as.Date("2020-09-17"))),
+              min = (as.Date("2020-09-16")),
+              max = (as.Date("2020-09-23")),
+              value = c((as.Date("2020-09-17")), (as.Date("2020-09-17"))),
               step = 1),
   
   "Exercise-3",
@@ -15,9 +15,9 @@ ui <- fluidPage(
                min = 0,
                max = 100,
                value = c(0,0),
-               step = 5
+               step = 5,
+               animate = TRUE
   ),
-  actionButton("play", "Play", class = "btn-lg btn-success"),
   
   "Exercise-4",
   selectInput(
