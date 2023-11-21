@@ -1,13 +1,12 @@
 library(shiny)
 ui <- fluidPage(
-  textInput("name", "What's your name?"),
-  textOutput("greeting")
+ textInput("name", "Enter your name here"),
+ textOutput("OutPutValue")
 )
 
 server <- function(input, output, session) {
-  output$greeting <- renderText({
-    paste0("Hello ", input$name, "!")
-  })
+  output$OutPutValue <- renderText(string())
+  string <- reactive(paste0("Hello ", input$name, "!"))
 }
 
 shinyApp(ui, server)
