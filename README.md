@@ -1,4 +1,4 @@
-# Basic UI practice (R/Shiny)
+# Masterinf shiny book practice (R/Shiny)
 
 <h3> Technologies </h3>
 - &nbsp; R <br>
