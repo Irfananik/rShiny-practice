@@ -1,5 +1,5 @@
 library(shiny)
-#library(glue)
+library(glue)
 
 ui <- fluidPage(
   sliderInput("x", "x", value = 1, min = 0, max = 10),
