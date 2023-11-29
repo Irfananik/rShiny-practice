@@ -10,6 +10,7 @@ ui <- fluidPage(
     ),
     column(6,
            actionButton("incrementVal", "Increment using reactiveVal"),
+           actionButton("dicrimentVal", "Increment using reactiveVal"),
            textOutput("outputVal")
     )
   )
@@ -37,6 +38,9 @@ server <- function(input, output, session) {
   
   observeEvent(input$incrementVal, {
     counterVal(counterVal() + 1)
+  })
+  observeEvent(input$dicrimentVal, {
+    counterVal(counterVal() - 1)
   })
   
   output$outputVal <- renderText({
